@@ -15,7 +15,9 @@
     cgroups o usando la biblioteca libcgroup. Voy a usar esta última.
 
     * En primer lugar creo un grupo con la siguiente orden:
+
       sudo cgcreate -a jaime -g memory,cpu,cpuacct:ejercicio7
+
     * Después creo tres subgrupos para controlar el navegador, el editor de textos y
       el programa gimp para tratamiento de imagenes:
       
@@ -45,5 +47,11 @@
       
     * Dentro de ella podemos ver, por ejemplo, el archivo memory.max_usage_in_bytes para
       conocer la máxima cantidad de memoria utilizada.
+
+    * Día | Ingresos | Egresos
+--- | --- | ---
+1 | $25000 | $50
+2 | $200 | $320
+3 | $5 | $50000
 
 *Convendría que pusieras los resultados numéricos para ver la diferencia en gasto de CPU de cada uno de los grupos*
