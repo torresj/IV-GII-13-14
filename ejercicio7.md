@@ -53,9 +53,9 @@
 
  | Firefox | Gedit | Gimp
 ----- |----- | ----- | -----
-cpuacct.stat | user:342 system: 82 |  | -----
-cpuacct.usage |4453737450 | $25000 | $50
-cpuacct.usage_percpu |CPU0: 2426991530 CPU1: 2030689661 | $200 | $320
+cpuacct.stat | user:342 system: 82 | user: 90 system: 4 | user: 405 system: 51
+cpuacct.usage |4453737450 | 984116819 | 4761160601
+cpuacct.usage_percpu |CPU0: 2426991530 CPU1: 2030689661 | CPU0: 646322951 CPU1: 337793868 | CPU0: 2725775758 CPU1: 2035384843
 memory.max_usage_in_bytes |3 | $5 | $50000
 
 *Convendría que pusieras los resultados numéricos para ver la diferencia en gasto de CPU de cada uno de los grupos*
