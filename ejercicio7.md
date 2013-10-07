@@ -48,7 +48,7 @@
     * Dentro de ella podemos ver, por ejemplo, el archivo memory.max_usage_in_bytes para
       conocer la máxima cantidad de memoria utilizada.
 
-    * Día | Ingresos | Egresos
+Día | Ingresos | Egresos
 --- | --- | ---
 1 | $25000 | $50
 2 | $200 | $320
