@@ -16,9 +16,9 @@
     cgroups o usando la biblioteca libcgroup. Voy a usar esta última.
 
     * En primer lugar creo un grupo con la siguiente orden:
-      ```
+      ´´´
       sudo cgcreate -a jaime -g memory,cpu,cpuacct:ejercicio7
-      ```
+      ´´´
     * Después creo tres subgrupos para controlar el navegador, el editor de textos y
       el programa gimp para tratamiento de imagenes:
       ```
