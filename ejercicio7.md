@@ -1,4 +1,3 @@
-
 ### Ejercicio 5 y 6
 
     Ya que ambos ejercicios persiguen el uso de git y la familiarización con su uso,
@@ -16,36 +15,34 @@
     cgroups o usando la biblioteca libcgroup. Voy a usar esta última.
 
     * En primer lugar creo un grupo con la siguiente orden:
-      ´´´
       sudo cgcreate -a jaime -g memory,cpu,cpuacct:ejercicio7
-      ´´´
     * Después creo tres subgrupos para controlar el navegador, el editor de textos y
       el programa gimp para tratamiento de imagenes:
-      ```
+      
       sudo cgcreate -g memory,cpu,cpuacct:ejercicio7/navegador
       sudo cgcreate -g memory,cpu,cpuacct:ejercicio7/editor
       sudo cgcreate -g memory,cpu,cpuacct:ejercicio7/imagenes
-      ```
+      
     * Una vez que tenemos los subgrupos, ejecutamos cada aplicación en su grupo:
-      ```
+      
       sudo cgexec -g memory,cpu,cpuacct:ejercicio7/navegador firefox
       sudo cgexec -g memory,cpu,cpuacct:ejercicio7/editor gedit
       sudo cgexec -g memory,cpu,cpuacct:ejercicio7/imagenes gimp
-      ```
+     
     * Por último, solo tenemos que buscar los archivos que hay, en mi caso, en la 
       siguiente carpeta(Dentro tenemos una carpeta por cada subgrupo: navegador, 
       editor e imagenes):
-      ```
+      
       cd /sys/fs/cgroup/cpuacct/ejercicio7
-      ```
+      
     * Para cada subgrupo, buscamos dentro de la carpeta anterior los archivos:
          - cpuacct.stat: tiempo consumido de sistema y de usuario.
          - cpuacct.usage: tiempo consumido de CPU.
          - cpuacct.usage_percpu: tiempo consumido por cada CPU (En caso de haber mas de una).
     * Para ver otro recurso, como la memoria por ejemplo, la carpeta seria:
-      ```
+      
       cd /sys/fs/cgroup/memory/ejercicio7
-      ```
+      
     * Dentro de ella podemos ver, por ejemplo, el archivo memory.max_usage_in_bytes para
       conocer la máxima cantidad de memoria utilizada.
 
