@@ -51,11 +51,11 @@
 
     * Tabla comparativa
 
---- | Firefox | Gedit | Gimp
+ | Firefox | Gedit | Gimp
 ----- |----- | ----- | -----
-cpuacct.stat |----- | ----- | -----
-cpuacct.usage |1 | $25000 | $50
-cpuacct.usage_percpu |2 | $200 | $320
+cpuacct.stat | user:342 system: 82 |  | -----
+cpuacct.usage |4453737450 | $25000 | $50
+cpuacct.usage_percpu |CPU0: 2426991530 CPU1: 2030689661 | $200 | $320
 memory.max_usage_in_bytes |3 | $5 | $50000
 
 *Convendría que pusieras los resultados numéricos para ver la diferencia en gasto de CPU de cada uno de los grupos*
