@@ -34,8 +34,9 @@
     * Por último, solo tenemos que buscar los archivos que hay, en mi caso, en la 
       siguiente carpeta(Dentro tenemos una carpeta por cada subgrupo: navegador, 
       editor e imagenes):
-      
+      ```
       cd /sys/fs/cgroup/cpuacct/ejercicio7
+      ```
       
     * Para cada subgrupo, buscamos dentro de la carpeta anterior los archivos:
          - cpuacct.stat: tiempo consumido de sistema y de usuario.
