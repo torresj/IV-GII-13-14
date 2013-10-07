@@ -49,10 +49,12 @@
     * Dentro de ella podemos ver, por ejemplo, el archivo memory.max_usage_in_bytes para
       conocer la máxima cantidad de memoria utilizada.
 
-Día | Ingresos | Egresos
---- | --- | ---
-1 | $25000 | $50
-2 | $200 | $320
-3 | $5 | $50000
+    * Tabla comparativa
+
+      --- | Día | Ingresos | Egresos
+      --- |--- | --- | ---
+      --- |1 | $25000 | $50
+      --- |2 | $200 | $320
+      --- |3 | $5 | $50000
 
 *Convendría que pusieras los resultados numéricos para ver la diferencia en gasto de CPU de cada uno de los grupos*
