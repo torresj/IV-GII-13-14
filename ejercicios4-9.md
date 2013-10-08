@@ -105,3 +105,10 @@ memory.max_usage_in_bytes | 262348800 | 11563008 | 77271040
   ![captura1](https://dl.dropboxusercontent.com/u/17453375/captura1.png)
 
   ![captura 2](https://dl.dropboxusercontent.com/u/17453375/captura2.png)
+
+
+### Ejercicio 10
+
+   Mi núcleo no contiene este modulo.
+
+   ![captura3](https://dl.dropboxusercontent.com/u/17453375/captura3.png)
