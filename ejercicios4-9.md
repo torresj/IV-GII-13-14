@@ -89,3 +89,19 @@ memory.max_usage_in_bytes | 262348800 | 11563008 | 77271040
         jaime     devices   /usuario
 
       Asi cualquier proceso lanzado por jaime se movería al grupo usuario
+
+  3. Usar un programa que muestre en tiempo real la carga del sistema tal como htopy comprobar los 
+     efectos de la migración en tiempo real de una tarea pesada de un procesador a otro (si se tiene dos 
+     núcleos en el sistema).
+
+
+### Ejercicio 9
+
+  Mi procesador tiene la tecnologia VT-x de intel. Es un intel core 2 duo T7250. 
+  [Aqui](http://ark.intel.com/products/31728/Intel-Core2-Duo-Processor-T7250-2M-Cache-2_00-ghz-800-mhz-fsb)
+  podemos ver las especificaciones del procesador y como se muestra en la imagen, vemos que sí tiene esta   
+  tecnologia.
+
+  ![captura1](https://dl.dropboxusercontent.com/u/17453375/captura1.png)
+
+  ![captura 2](https://dl.dropboxusercontent.com/u/17453375/captura2.png)
