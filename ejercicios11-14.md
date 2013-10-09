@@ -1,6 +1,6 @@
 ###Ejercicio 11
    
-   Comentar diferentes soluciones de Software as a Service de uso habitual.
+   *Comentar diferentes soluciones de Software as a Service de uso habitual.
 
    El hecho de usar un SaaS viene sobre todo por que este no necesita de una instalacion
    y que entre otras cosas puede ser accedido desde cualquier parte a traves de internet.
@@ -18,17 +18,17 @@
 
 ###Ejercicio 12
 
-   Instalar un entorno virtual para tu lenguaje de programación favorito (uno de los mencionados arriba, obviamente).
+   *Instalar un entorno virtual para tu lenguaje de programación favorito (uno de los mencionados arriba, obviamente).
 
    Yo he optado por instalar virtualenv siguiendo los pasos que se indica en su pagina. La
    razon es que me manejo mejor en python que en los otros lenguajes propuestos.
 
 ###Ejercicio 13
 
-   Darse de alta en algún servicio PaaS tal como Heroku, Nodejitsu u OpenShift.
+   *Darse de alta en algún servicio PaaS tal como Heroku, Nodejitsu u OpenShift.
 
    Me he dado de alta en OpenShift.
 
 ###Ejercicio 14
 
-   Crear una aplicación en OpenShift y dentro de ella instalar WordPress.
+   *Crear una aplicación en OpenShift y dentro de ella instalar WordPress.
