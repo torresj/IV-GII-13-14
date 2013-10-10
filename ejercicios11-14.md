@@ -1,5 +1,5 @@
 
-[https://github.com/torresj/IV-GII-13-14/blob/master/ejercicios4-9.md Ejercicios anteriores]
+[Ejercicios del 4 al 10](https://github.com/torresj/IV-GII-13-14/blob/master/ejercicios4-9.md)
 
 ###Ejercicio 11
    
