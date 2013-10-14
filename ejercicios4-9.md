@@ -114,3 +114,7 @@ memory.max_usage_in_bytes | 262348800 | 11563008 | 77271040
    Mi núcleo no contiene este modulo.
 
    ![captura3](https://dl.dropboxusercontent.com/u/17453375/captura3.png)
+   
+   
+
+[Ejercicios del 11 al 14](https://github.com/torresj/IV-GII-13-14/blob/master/ejercicios11-14.md)
