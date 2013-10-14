@@ -35,5 +35,5 @@
 
    *Crear una aplicación en OpenShift y dentro de ella instalar WordPress.
 
-    Desde la página de openshift es muy simple crear la aplicacion siguiendo los pasos.
-    [Esta](https://blogdeiv-gii.rhcloud.com) es mi direccion para el blog.
+Desde la página de openshift es muy simple crear la aplicacion siguiendo los pasos.
+[Esta](https://blogdeiv-gii.rhcloud.com) es mi direccion para el blog.
