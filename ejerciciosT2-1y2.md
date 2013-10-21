@@ -15,3 +15,9 @@ Crear un espacio de nombres y montar en él una imagen ISO de un CD de forma que
 		Mi pc no tiene ningun puente.
 
 ![captura2](https://dl.dropboxusercontent.com/u/17453375/puentesvirtuales.png)
+
+	2. Crear un interfaz virtual y asignarlo al interfaz de la tarjeta wifi, si se tiene, o del fijo, si no se tiene.
+		Al intentar añadirlo a wlan0 me da un error pero en cambio si lo añado a cualquier otra interfaz no da
+		problemas
+
+![captura](https://dl.dropboxusercontent.com/u/17453375/puenteWlan0.png)
