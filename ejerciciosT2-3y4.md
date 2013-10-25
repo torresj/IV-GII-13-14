@@ -21,3 +21,19 @@
 ![captura2](https://dl.dropboxusercontent.com/u/17453375/fedora.png) 
 
 ![captura3](https://dl.dropboxusercontent.com/u/17453375/fedora2.png)
+
+### Ejercicio 4
+	
+	Instalar alguna sistema debianita y configurarlo para su uso. Trabajando desde terminal, 
+	probar a ejecutar alguna aplicación o instalar las herramientas necesarias para compilar una 
+	y ejecutarla.
+
+	Voy a usar el sistema instalado en el ejercicio 3 , ubuntu 13.10 amd64. Ahora podemos usarlo
+	para lo que queramos. Como viene en los apuntes podemos montar /proc y probar la orden top.
+
+![captura4](https://dl.dropboxusercontent.com/u/17453375/top.png)
+
+	Como ejemplo yo he instalado git, para poder gestionar mis repositorios desde este sistema.
+	En la siguiente imagen vemos como git esta instalado y podemos usarlo.
+
+![captura5](https://dl.dropboxusercontent.com/u/17453375/git.png)
