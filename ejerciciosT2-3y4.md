@@ -37,3 +37,6 @@
 	En la siguiente imagen vemos como git esta instalado y podemos usarlo.
 
 ![captura5](https://dl.dropboxusercontent.com/u/17453375/git.png)
+
+
+### [Ejercicios 5 y 6](https://github.com/torresj/IV-GII-13-14/blob/master/ejerciciosT2-5y6.md)
