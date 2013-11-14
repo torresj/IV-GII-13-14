@@ -53,7 +53,7 @@
 	1. Instalar lxc-webpanel y usarlo para arrancar, parar y visualizar 
 	   las máquinas virtuales que se tengan instaladas.
 
-	Primero nos vamos a la pagina de [lxc-webpanel](http://lxc-webpanel.github.io/) y seguimos los pasos. Tras poner
+	Primero nos vamos a la pagina de lxc-webpanel y seguimos los pasos. Tras poner
 	'wget http://lxc-webpanel.github.io/tools/install.sh -O - | sudo bash' vemos 
 	como se instala.
 
