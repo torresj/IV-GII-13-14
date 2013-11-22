@@ -75,3 +75,12 @@
 	como el de la imagen.
 
 ![captura8](https://dl.dropboxusercontent.com/u/17453375/lxc-webpanel3.png)
+
+
+### Ejercicio 5
+
+	Comparar las prestaciones de un servidor web en una jaula y el mismo servidor
+	en un contenedor. Usar nginx.
+	
+	Vamos a usar la jaula ya creada en el tema anterior y el contenedor usado en este
+	tema con un ubuntu. Usando ab compararé las prestaciones.
