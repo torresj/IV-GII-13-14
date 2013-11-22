@@ -83,4 +83,5 @@
 	en un contenedor. Usar nginx.
 	
 	Vamos a usar la jaula ya creada en el tema anterior y el contenedor usado en este
-	tema con un ubuntu. Usando ab compararé las prestaciones.
+	tema con un ubuntu. Usando ab compararé las prestaciones. Primero entramos con
+	lxc-start -n ubuntu en el contenedor e instalamos nginx
