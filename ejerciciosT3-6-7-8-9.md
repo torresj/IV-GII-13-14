@@ -101,8 +101,8 @@
 	el archivo para la imagen, el tamaño del archivo de imagen y el archivo
 	iso o la ruta de la unidad de disco donde esta.
 
-	Para que la instalación funcione tenemos que isntalar antes virt-viewer.
+	Para que la instalación funcione tenemos que instalar antes virt-viewer.
 	Como se ve en la imagen el proceso de instalación sigue los pasos normales
-	del disco de isntalación del sistema operativo que hayamos elegido.
+	del disco de instalación del sistema operativo que hayamos elegido.
 
 ![captura4](https://dl.dropboxusercontent.com/u/17453375/virt-install.png)
