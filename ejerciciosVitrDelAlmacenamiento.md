@@ -29,9 +29,7 @@ lvdisplay.
 
 ## Ejercicio 2
 
-###Usar FUSE para acceder a recursos remotos como si fueran ficheros locales. 
-###Por ejemplo, sshfs para acceder a ficheros de una máquina virtual invitada 
-###o de la invitada al anfitrión.
+###Usar FUSE para acceder a recursos remotos como si fueran ficheros locales. Por ejemplo, sshfs para acceder a ficheros de una máquina virtual invitada o de la invitada al anfitrión.
 
 Vamos a trabajar con la maquina afintriona y con el taper creado en temas 
 anteriores "ubuntu" al que tendremos que establecer una direcion ip (con lxc-webpanel).
@@ -56,8 +54,7 @@ creado "musica".
 
 ## Ejercicio 3
 
-###Crear imágenes con estos formatos (y otros que se encuentren tales como VMDK) y 
-###manipularlas a base de montarlas o con cualquier otra utilidad que se encuentre.
+###Crear imágenes con estos formatos (y otros que se encuentren tales como VMDK) y manipularlas a base de montarlas o con cualquier otra utilidad que se encuentre.
 
 Podemos usar quemu para crear imagenes de varios formatos como son qcow2, raw o vmdk.
 
@@ -189,9 +186,7 @@ Por ultimo iniciamos el servicio y comprobamos el estado de ceph.
 
 ## Ejercicio 8
 
-###Tras crear la cuenta de Azure, instalar las herramientas de línea de 
-###órdenes (Command line interface, cli) del mismo y configurarlas con 
-###la cuenta Azure correspondiente.
+###Tras crear la cuenta de Azure, instalar las herramientas de línea de órdenes (Command line interface, cli) del mismo y configurarlas con la cuenta Azure correspondiente.
 
 Para poder instalar el cliente de azure debemos instalar antes node.js
 
@@ -234,9 +229,7 @@ o usando el cliente de azure como se ve en lso apuntes de la asignatura.
 
 ## Ejercicio 9
 
-###Crear varios contenedores en la cuenta usando la línea de órdenes para ficheros 
-###de diferente tipo y almacenar en ellos las imágenes en las que capturéis las 
-###pantallas donde se muestre lo que habéis hecho.
+###Crear varios contenedores en la cuenta usando la línea de órdenes para ficheros de diferente tipo y almacenar en ellos las imágenes en las que capturéis las pantallas donde se muestre lo que habéis hecho.
 
 Vamos a crear dos contenedores para almacenar, por un lado documentos y por otro imagenes.
 
