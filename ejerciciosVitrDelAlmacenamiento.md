@@ -1,6 +1,6 @@
-### Ejercicio 1
+## Ejercicio 1
 
-1. ¿Cómo tienes instalado tu disco duro? ¿Usas particiones? ¿Volúmenes lógicos?
+###1. ¿Cómo tienes instalado tu disco duro? ¿Usas particiones? ¿Volúmenes lógicos?
 
 Tengo el disco duro dividido en 4 particiones primarias, es decir, usando el máximo
 de particiones que permite formato de tabla de particiones usual. No uso ninguna
@@ -18,20 +18,20 @@ lvdisplay.
 ![captura2](https://dl.dropboxusercontent.com/u/17453375/lv.png)
 
 
-2. Si tienes acceso en tu escuela o facultad a un ordenador común para las prácticas,
+###2. Si tienes acceso en tu escuela o facultad a un ordenador común para las prácticas,
 ¿qué almacenamiento físico utiliza?
 
-3. Buscar ofertas SAN comerciales y comparar su precio con ofertas locales 
+###3. Buscar ofertas SAN comerciales y comparar su precio con ofertas locales 
 (en el propio ordenador) equivalentes.
 
 
 
 
-### Ejercicio 2
+## Ejercicio 2
 
-Usar FUSE para acceder a recursos remotos como si fueran ficheros locales. 
-Por ejemplo, sshfs para acceder a ficheros de una máquina virtual invitada 
-o de la invitada al anfitrión.
+###Usar FUSE para acceder a recursos remotos como si fueran ficheros locales. 
+###Por ejemplo, sshfs para acceder a ficheros de una máquina virtual invitada 
+###o de la invitada al anfitrión.
 
 Vamos a trabajar con la maquina afintriona y con el taper creado en temas 
 anteriores "ubuntu" al que tendremos que establecer una direcion ip (con lxc-webpanel).
@@ -54,10 +54,10 @@ creado "musica".
 
 
 
-### Ejercicio 3
+## Ejercicio 3
 
-Crear imágenes con estos formatos (y otros que se encuentren tales como VMDK) y 
-manipularlas a base de montarlas o con cualquier otra utilidad que se encuentre.
+###Crear imágenes con estos formatos (y otros que se encuentren tales como VMDK) y 
+###manipularlas a base de montarlas o con cualquier otra utilidad que se encuentre.
 
 Podemos usar quemu para crear imagenes de varios formatos como son qcow2, raw o vmdk.
 
@@ -111,9 +111,9 @@ de que se han montado correctamente.
 ![captura8](https://dl.dropboxusercontent.com/u/17453375/loopMontados.png)
 
 
-### Ejercicio 5
+## Ejercicio 5
 
-Instalar ceph en tu sistema operativo.
+###Instalar ceph en tu sistema operativo.
 
 Con la siguiente orden instalamos ceph y todas sus dependencias
 
@@ -121,9 +121,9 @@ Con la siguiente orden instalamos ceph y todas sus dependencias
 
 
 
-### Ejercicio 6
+## Ejercicio 6
 
-Crear un dispositivo ceph usando BTRFS o XFS
+###Crear un dispositivo ceph usando BTRFS o XFS
 
 Lo primero que vamos a hacer es crear las carpetas para ceph.
 
@@ -187,11 +187,11 @@ Por ultimo iniciamos el servicio y comprobamos el estado de ceph.
 
 ![captura12](https://dl.dropboxusercontent.com/u/17453375/ceph4.png)
 
-### Ejercicio 8
+## Ejercicio 8
 
-Tras crear la cuenta de Azure, instalar las herramientas de línea de 
-órdenes (Command line interface, cli) del mismo y configurarlas con 
-la cuenta Azure correspondiente.
+###Tras crear la cuenta de Azure, instalar las herramientas de línea de 
+###órdenes (Command line interface, cli) del mismo y configurarlas con 
+###la cuenta Azure correspondiente.
 
 Para poder instalar el cliente de azure debemos instalar antes node.js
 
@@ -232,11 +232,11 @@ o usando el cliente de azure como se ve en lso apuntes de la asignatura.
 	echo $AZURE_STORAGE_ACCESS_KEY
 
 
-### Ejercicio 9
+## Ejercicio 9
 
-Crear varios contenedores en la cuenta usando la línea de órdenes para ficheros 
-de diferente tipo y almacenar en ellos las imágenes en las que capturéis las 
-pantallas donde se muestre lo que habéis hecho.
+###Crear varios contenedores en la cuenta usando la línea de órdenes para ficheros 
+###de diferente tipo y almacenar en ellos las imágenes en las que capturéis las 
+###pantallas donde se muestre lo que habéis hecho.
 
 Vamos a crear dos contenedores para almacenar, por un lado documentos y por otro imagenes.
 
