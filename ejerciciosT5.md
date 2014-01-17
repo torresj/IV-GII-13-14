@@ -155,6 +155,6 @@ Despues creamos la imagen.
 Tras unos minutos, ya tendremos un archivo con la imagen de disco y un script llamado
 run.sh que si lo ejecutamos, lanzara la maquina virtual.
 
-![captura19](https://dl.dropboxusercontent.com/u/17453375/vmbuilder.png)
+![captura19](https://dl.dropboxusercontent.com/u/17453375/vmbiulder.png)
 
 	
