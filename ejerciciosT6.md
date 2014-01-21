@@ -104,3 +104,19 @@ de ejecutarse.
 	        "recipe[datos]"
 	    ]
 	}
+
+
+Ya tenemos todo lo que necesitamos, ahora podemos pasarlo a la maquina virtual
+de azure mediante sftp o creando un proyecto en github y clonandolo.
+Una vez tenemos la carpeta con las recetas en la maquina virtual ya podemos
+lanzar chef.
+
+	sudo chef-solo -c chef/solo.rb -j chef/node.json
+
+![captura2](https://dl.dropboxusercontent.com/u/17453375/chef.png)
+
+Podemos ver que todo ha sido correcto haciendo un ls para mostrar
+la carpeta creada con el archivo dentro y mirando que nginx y emacs
+estan instalados.
+
+![captura3](https://dl.dropboxusercontent.com/u/17453375/recetas.png)
