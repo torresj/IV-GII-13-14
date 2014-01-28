@@ -242,15 +242,15 @@ dai.yml
 
 ![captura4](https://dl.dropboxusercontent.com/u/17453375/ansible_dai.png)
 
-En la imagen podemos ver que pone "finish job" esto no se debe a ningun error
-de ansible, el problema está en que he instalado mongoDB pero no he inicializado
-la base de datos, y cuando la aplicación ha echo la primera consulta se ha producido
-un error. Copiamos la base de datos y la aplicación funciona perfectamente.
+En la imagen podemos ver que pone "finished" en el ultimo proceso. Esto no se debe 
+a ningun error de ansible, el problema está en que he instalado mongoDB pero no he 
+inicializado la base de datos, y cuando la aplicación ha echo la primera consulta 
+se ha producido un error. Copiamos la base de datos y la aplicación funciona perfectamente.
 
 
 ![captura4](https://dl.dropboxusercontent.com/u/17453375/ansible_cafe.png)
 
-No puedo dejar esta maquina virtual encendida ya que para la aplicacción
+No puedo dejar esta maquina virtual encendida ya que para la aplicación
 que desarrollamos en cocoroco use mi cuenta para crear la maquina donde
 se aloja y no puedo tener ambas encendidas. No obstante en la captura se
 puede ver que la dirección web es la de la maquina virtual del ejercicio.
