@@ -244,7 +244,7 @@ dai.yml
 
 En la imagen podemos ver que pone "finished" en el ultimo proceso. Esto no se debe 
 a ningun error de ansible, el problema está en que he instalado mongoDB pero no he 
-inicializado la base de datos, y cuando la aplicación ha echo la primera consulta 
+inicializado la base de datos, y cuando la aplicación ha hecho la primera consulta 
 se ha producido un error. Copiamos la base de datos y la aplicación funciona perfectamente.
 
 
