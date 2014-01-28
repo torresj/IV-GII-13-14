@@ -198,7 +198,7 @@ y establecemos la variable de entorno.
 
 ![captura4](https://dl.dropboxusercontent.com/u/17453375/ansible.png)
 
-Por ultimo usamos ansible para clonar mi repositorio con la práctica
+Ahora usamos ansible para clonar mi repositorio con la práctica
 de DAI.
 
 	ansible azure -m git -a "repo=https://github.com/torresj/cafe.git dest=~/ version=HEAD"
