@@ -55,4 +55,9 @@ los comandos para aprovisionar.
 	vagrant provision
 
 
+Asi le decimos explicitamente que se ejecute el aprovisionamiento,
+pero tambien podríamos para la maquina y volver a lanzar.
+
+	vagrant reload
+
 ![captura4](https://dl.dropboxusercontent.com/u/17453375/vagrant4.png)
