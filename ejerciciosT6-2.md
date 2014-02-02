@@ -87,14 +87,13 @@ al final para hacer "vagrant provision".
 
 Una vez que tenemos configurado vagrant, solo nos queda configurar ansible
 igual que hemos hecho en el ejercicio 5. Creamos un archivo para indicar
-la dirección ip del equipo a configurar y después configuramos la variable
-de sesión para indicar donde se encuentra.
+la dirección ip del equipo a configurar.
 
 	[debian]
 	192.168.33.10
 
 
-
+Después indicamos donde está el archvio, configurando la variable.
 
 	export ANSIBLE_HOSTS=~/IV/vagrant/ansible_hosts
 
