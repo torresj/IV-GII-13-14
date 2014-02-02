@@ -46,11 +46,13 @@ Usando vagrant, solo tenemos que editar el archivo "Vagrantfile".
 	end
 
 
-Las lineas que despues de provider sirven para activar la red ya que no 
-se por que dentro de la maquina virtual no hay conexion a internet.
+Las lineas que hay despues de provider sirven para activar la red ya que 
+no se por que dentro de la maquina virtual no hay conexion a internet.
 Después podemos ver que hemos usado "shell". Poniendo inline podemos
-mandar ejecutar cualquier orden.
+mandar ejecutar cualquier orden. Con la siguiente orden se ejecutan
+los comandos para aprovisionar.
 
+	vagrant provision
 
 ![captura4](https://dl.dropboxusercontent.com/u/17453375/vagrant4.png)
 
