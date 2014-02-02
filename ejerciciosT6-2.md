@@ -46,7 +46,7 @@ Usando vagrant, solo tenemos que editar el archivo "Vagrantfile".
 	end
 
 
-Las lineas que hay despues de provider sirven para activar la red ya que 
+Las líneas que hay después de provider sirven para activar la red ya que 
 no se por que dentro de la maquina virtual no hay conexion a internet.
 Después podemos ver que hemos usado "shell". Poniendo inline podemos
 mandar ejecutar cualquier orden. Con la siguiente orden se ejecutan
@@ -67,8 +67,8 @@ Primero voy a crear una maquina virtual nueva, por ejempo otra debian mas ligera
 
 
 
-El sisguiente paso es inicializarla y editar el archivo Vagrantfile para indicarle
-que vamos a usar ansible. Además habra que asignarle una dirección ip para usarla
+El siguiente paso es inicializarla y editar el archivo Vagrantfile para indicarle
+que vamos a usar ansible. Además habrá que asignarle una dirección ip para usarla
 en ansible.
 
 	Vagrant.configure("2") do |config|
@@ -92,6 +92,9 @@ de sesión para indicar donde se encuentra.
 
 	[debian]
 	192.168.33.10
+
+
+
 
 	export ANSIBLE_HOSTS=~/IV/vagrant/ansible_hosts
 
